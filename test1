@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>MainTest.com</title>
+        <link rel = "stylesheet" href = "design.css">
+    </head>
+    <style>
+        input{
+            border-top-style:hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: groove;
+        }
+        body{
+            text-align: justify
+            
+        }
+        p{
+            text-align: center;
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        #1{
+            text-align: center;
+            font-weight: bold;
+            font-size:larger;
+        }
+        
+        select {
+width: 150px;
+height: 50px;
+margin: 10px;
+background-color: #f9f9f9;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+    </style>
+
+    <p>Create your Oracle Account</p>
+    <p id="1">Already have an account?<a href="#" style="color:crimson" style="text-align: center;">Sign in</a><br></p>
+    <body style="margin-left: 250px;">
+    
+    Email ID<span style = "color: red;">*</span>: <input type ="email" name="mail" /><span style=color:darkgray> Your email address is your username</span><br>
+     <br>
+     <br>
+    Password<span style = "color: red;">*</span>:  <input type = password" name = "password" id = "password-field"/ ><span style=color:darkgray>Passwords must have upper and lower case letters, atleast 1 number, no match or contain email, and atleast be 8 charecters long.</span><br>
+      <br>
+      <br>
+
+    Retype Password<span style = "color: red;">*</span>:  <input type = password" name = "password" id = "password-field"/ ><br>
+      <br>
+      <br>
+    Country<span style = "color: red;">*</span>: 
+    <select name="Country"  >
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option Value="Indonasia">Indonasia</option>
+        <option value="Canada">Canada</option>
+        <option value="Switzerland">Switzerland</option>
+       
+    </select><br>
+        <br>
+        <br>
+    Name<span style = "color: red;">*</span> :<input type ="text" name="name" placeholder= "First or Given name"/> <input type ="text" name="name" placeholder= "last name"/><br><br><br>
+    Job Title<span style = "color: red;">*</span> :<input type ="text" name="Job Title" /> <br><br><br>
+    Work Phone<span style = "color: red;">*</span> :<input type ="text" name="Work Phone" /> <br><br><br>
+    Company name<span style = "color: red;">*</span> :<input type ="text" name="Company name" /> <br><br><br>
+   Address<span style = "color: red;">*</span> :<input type ="text" name="Address" /> <br><br><br>
+    <input type ="text" name="Address" style="margin-left: 70px;" /> <br><br><br>
+    City<span style = "color: red;">*</span> :<input type ="text" name="City" /> <br><br><br>
+    State/Province<span style = "color: red;">*</span>: 
+    <select name="Country" >
+        <option value="--Select--">--Select--</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Telangana">Telangana</option>
+        <option Value="Kerala">Kerala</option>
+        <option value="Orissa">Orissa</option>
+        <option value="West Bengal">West Bengal</option>
+       
+    </select><br>
+        <br>
+        <br>
+        ZIP/Postal code<span style = "color: red;">*</span> :<input type ="text" name="ZIP/Postal code" /> <br><br><br>
+      
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia ipsam est, ab dicta, magnam vitae voluptas provident dolor iste voluptatibus asperiores reiciendis consequuntur dolorem ullam placeat quas excepturi sed!
+    <input type="submit" name="Create Account" value="Create Account" style="height: 6%; background-color: green; color: white; text-emphasis: bold;margin-left:auto;margin-right:auto;display:block;margin-bottom:0%">
+   
+
+
+
+    
+    
+    <a href="#" style="color:crimson" ">Account help</a>| <a href="#" style="color:crimson">Account help</a>| <a href="#" style="color:crimson" >Subscriptions</a>| <a href="#" style="color:crimson" >Unsubscribe</a>| <a href="#" style="color:crimson" style="text-align: center;">Terms and Conditions</a>| <a href="#" style="color:crimson" >Cookie preference</a>
+</body>
+</html>
